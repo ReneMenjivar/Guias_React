@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\diego\\OneDrive\\Documentos\\PROGRA_lll\\reacktIntroduccion\\notasProyecto\\Temporal\\Temporal.csproj": {}
+    "C:\\Users\\diego\\Source\\Repos\\Guias_React\\reacktIntroduccion\\notasProyecto\\Temporal\\Temporal.csproj": {}
   },
   "projects": {
-    "C:\\Users\\diego\\OneDrive\\Documentos\\PROGRA_lll\\reacktIntroduccion\\notasProyecto\\reacktBackend\\reacktBackend.csproj": {
+    "C:\\Users\\diego\\Source\\Repos\\Guias_React\\reacktIntroduccion\\notasProyecto\\reacktBackend\\reacktBackend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\diego\\OneDrive\\Documentos\\PROGRA_lll\\reacktIntroduccion\\notasProyecto\\reacktBackend\\reacktBackend.csproj",
+        "projectUniqueName": "C:\\Users\\diego\\Source\\Repos\\Guias_React\\reacktIntroduccion\\notasProyecto\\reacktBackend\\reacktBackend.csproj",
         "projectName": "reacktBackend",
-        "projectPath": "C:\\Users\\diego\\OneDrive\\Documentos\\PROGRA_lll\\reacktIntroduccion\\notasProyecto\\reacktBackend\\reacktBackend.csproj",
+        "projectPath": "C:\\Users\\diego\\Source\\Repos\\Guias_React\\reacktIntroduccion\\notasProyecto\\reacktBackend\\reacktBackend.csproj",
         "packagesPath": "C:\\Users\\diego\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\diego\\OneDrive\\Documentos\\PROGRA_lll\\reacktIntroduccion\\notasProyecto\\reacktBackend\\obj\\",
+        "outputPath": "C:\\Users\\diego\\Source\\Repos\\Guias_React\\reacktIntroduccion\\notasProyecto\\reacktBackend\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -91,14 +91,14 @@
         }
       }
     },
-    "C:\\Users\\diego\\OneDrive\\Documentos\\PROGRA_lll\\reacktIntroduccion\\notasProyecto\\Temporal\\Temporal.csproj": {
+    "C:\\Users\\diego\\Source\\Repos\\Guias_React\\reacktIntroduccion\\notasProyecto\\Temporal\\Temporal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\diego\\OneDrive\\Documentos\\PROGRA_lll\\reacktIntroduccion\\notasProyecto\\Temporal\\Temporal.csproj",
+        "projectUniqueName": "C:\\Users\\diego\\Source\\Repos\\Guias_React\\reacktIntroduccion\\notasProyecto\\Temporal\\Temporal.csproj",
         "projectName": "Temporal",
-        "projectPath": "C:\\Users\\diego\\OneDrive\\Documentos\\PROGRA_lll\\reacktIntroduccion\\notasProyecto\\Temporal\\Temporal.csproj",
+        "projectPath": "C:\\Users\\diego\\Source\\Repos\\Guias_React\\reacktIntroduccion\\notasProyecto\\Temporal\\Temporal.csproj",
         "packagesPath": "C:\\Users\\diego\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\diego\\OneDrive\\Documentos\\PROGRA_lll\\reacktIntroduccion\\notasProyecto\\Temporal\\obj\\",
+        "outputPath": "C:\\Users\\diego\\Source\\Repos\\Guias_React\\reacktIntroduccion\\notasProyecto\\Temporal\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -120,8 +120,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\diego\\OneDrive\\Documentos\\PROGRA_lll\\reacktIntroduccion\\notasProyecto\\reacktBackend\\reacktBackend.csproj": {
-                "projectPath": "C:\\Users\\diego\\OneDrive\\Documentos\\PROGRA_lll\\reacktIntroduccion\\notasProyecto\\reacktBackend\\reacktBackend.csproj"
+              "C:\\Users\\diego\\Source\\Repos\\Guias_React\\reacktIntroduccion\\notasProyecto\\reacktBackend\\reacktBackend.csproj": {
+                "projectPath": "C:\\Users\\diego\\Source\\Repos\\Guias_React\\reacktIntroduccion\\notasProyecto\\reacktBackend\\reacktBackend.csproj"
               }
             }
           }

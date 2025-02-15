@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ras+NA9JWuk=",
+  "dgSpecHash": "7ZShP+v7u+s=",
   "success": true,
-  "projectFilePath": "C:\\Users\\diego\\OneDrive\\Documentos\\PROGRA_lll\\reacktIntroduccion\\notasProyecto\\Temporal\\Temporal.csproj",
+  "projectFilePath": "C:\\Users\\diego\\Source\\Repos\\Guias_React\\reacktIntroduccion\\notasProyecto\\Temporal\\Temporal.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\diego\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\diego\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

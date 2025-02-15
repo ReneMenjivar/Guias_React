@@ -4741,11 +4741,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\diego\\OneDrive\\Documentos\\PROGRA_lll\\reacktIntroduccion\\notasProyecto\\reacktBackend\\reacktBackend.csproj",
+      "projectUniqueName": "C:\\Users\\diego\\Source\\Repos\\Guias_React\\reacktIntroduccion\\notasProyecto\\reacktBackend\\reacktBackend.csproj",
       "projectName": "reacktBackend",
-      "projectPath": "C:\\Users\\diego\\OneDrive\\Documentos\\PROGRA_lll\\reacktIntroduccion\\notasProyecto\\reacktBackend\\reacktBackend.csproj",
+      "projectPath": "C:\\Users\\diego\\Source\\Repos\\Guias_React\\reacktIntroduccion\\notasProyecto\\reacktBackend\\reacktBackend.csproj",
       "packagesPath": "C:\\Users\\diego\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\diego\\OneDrive\\Documentos\\PROGRA_lll\\reacktIntroduccion\\notasProyecto\\reacktBackend\\obj\\",
+      "outputPath": "C:\\Users\\diego\\Source\\Repos\\Guias_React\\reacktIntroduccion\\notasProyecto\\reacktBackend\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

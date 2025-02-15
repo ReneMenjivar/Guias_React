@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "G73NV6zuHHU=",
+  "dgSpecHash": "E2MEwYH4VU0=",
   "success": true,
-  "projectFilePath": "C:\\Users\\diego\\OneDrive\\Documentos\\PROGRA_lll\\reacktIntroduccion\\notasProyecto\\reacktBackend\\reacktBackend.csproj",
+  "projectFilePath": "C:\\Users\\diego\\Source\\Repos\\Guias_React\\reacktIntroduccion\\notasProyecto\\reacktBackend\\reacktBackend.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\diego\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\diego\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

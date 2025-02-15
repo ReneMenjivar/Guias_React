@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "reacktBackend", "reacktBackend\reacktBackend.csproj", "{99753F5E-8E97-4D40-99E0-DCB29F7B871E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "reacktBackend", "reacktBackend\reacktBackend.csproj", "{99753F5E-8E97-4D40-99E0-DCB29F7B871E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Temporal", "Temporal\Temporal.csproj", "{499D9FFD-3CDF-47C2-8B6B-F351E54AD23B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Temp", "Temp\Temp.csproj", "{9FE10C5A-4B7F-48AC-BA39-8BD94E5D703A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{99753F5E-8E97-4D40-99E0-DCB29F7B871E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{99753F5E-8E97-4D40-99E0-DCB29F7B871E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{99753F5E-8E97-4D40-99E0-DCB29F7B871E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{499D9FFD-3CDF-47C2-8B6B-F351E54AD23B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{499D9FFD-3CDF-47C2-8B6B-F351E54AD23B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{499D9FFD-3CDF-47C2-8B6B-F351E54AD23B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{499D9FFD-3CDF-47C2-8B6B-F351E54AD23B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FE10C5A-4B7F-48AC-BA39-8BD94E5D703A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FE10C5A-4B7F-48AC-BA39-8BD94E5D703A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FE10C5A-4B7F-48AC-BA39-8BD94E5D703A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FE10C5A-4B7F-48AC-BA39-8BD94E5D703A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
