@@ -1,5 +1,5 @@
-﻿using reacktBackend.Context;
-using reacktBackend.Models;
+﻿using reactBackend.Context;
+using reactBackend.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +10,7 @@ namespace reactBackend.Repository
 {
     public class ProfesorDao
     {
-        public RegistroAlumnoContext context = new RegistroAlumnoContext();
+        public RegistroAlumnosContext context = new RegistroAlumnosContext();
 
         // Creamos un metodo que recibe 2 parametros, usuario y pass
         // Creamos una expresión lambda que recibe

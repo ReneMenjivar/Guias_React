@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace reacktBackend.Models;
+namespace reactBackend.Models;
 
 public partial class Matricula
 {

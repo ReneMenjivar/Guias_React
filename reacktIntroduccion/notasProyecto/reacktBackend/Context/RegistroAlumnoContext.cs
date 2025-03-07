@@ -1,17 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
-using reacktBackend.Models;
+using reactBackend.Models;
 
-namespace reacktBackend.Context;
+namespace reactBackend.Context;
 
-public partial class RegistroAlumnoContext : DbContext
+public partial class RegistroAlumnosContext : DbContext
 {
-    public RegistroAlumnoContext()
+    public RegistroAlumnosContext()
     {
     }
 
-    public RegistroAlumnoContext(DbContextOptions<RegistroAlumnoContext> options)
+    public RegistroAlumnosContext(DbContextOptions<RegistroAlumnosContext> options)
         : base(options)
     {
     }
@@ -28,13 +28,13 @@ public partial class RegistroAlumnoContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlServer("Data Source=.\\SQLEXPRESS;Initial Catalog=registroAlumno;Integrated Security=True;Trust Server Certificate=True");
+        => optionsBuilder.UseSqlServer("Data Source=.\\SQLEXPRESS;Initial Catalog=registroAlumnos;Integrated Security=True;Encrypt=False;Trust Server Certificate=True");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<Alumno>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__alumno__3213E83FCCF63C21");
+            entity.HasKey(e => e.Id).HasName("PK__alumno__3213E83F5E9BA5BA");
 
             entity.ToTable("alumno");
 
@@ -60,7 +60,7 @@ public partial class RegistroAlumnoContext : DbContext
 
         modelBuilder.Entity<Asignatura>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__asignatu__3213E83F35DD9F6F");
+            entity.HasKey(e => e.Id).HasName("PK__asignatu__3213E83FF87F2759");
 
             entity.ToTable("asignatura");
 
@@ -77,12 +77,12 @@ public partial class RegistroAlumnoContext : DbContext
 
             entity.HasOne(d => d.ProfesorNavigation).WithMany(p => p.Asignaturas)
                 .HasForeignKey(d => d.Profesor)
-                .HasConstraintName("FK__asignatur__profe__4E88ABD4");
+                .HasConstraintName("FK__asignatur__profe__29572725");
         });
 
         modelBuilder.Entity<Calificacion>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__califica__3213E83FA27EA6F3");
+            entity.HasKey(e => e.Id).HasName("PK__califica__3213E83FA9FCA18E");
 
             entity.ToTable("calificacion");
 
@@ -98,12 +98,12 @@ public partial class RegistroAlumnoContext : DbContext
             entity.HasOne(d => d.Matricula).WithMany(p => p.Calificacions)
                 .HasForeignKey(d => d.MatriculaId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__calificac__matri__5535A963");
+                .HasConstraintName("FK__calificac__matri__300424B4");
         });
 
         modelBuilder.Entity<Matricula>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__matricul__3213E83F0DF51530");
+            entity.HasKey(e => e.Id).HasName("PK__matricul__3213E83F17BC10C1");
 
             entity.ToTable("matricula");
 
@@ -114,17 +114,17 @@ public partial class RegistroAlumnoContext : DbContext
             entity.HasOne(d => d.Alumno).WithMany(p => p.Matriculas)
                 .HasForeignKey(d => d.AlumnoId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__matricula__alumn__5165187F");
+                .HasConstraintName("FK__matricula__alumn__2C3393D0");
 
             entity.HasOne(d => d.Asignatura).WithMany(p => p.Matriculas)
                 .HasForeignKey(d => d.AsignaturaId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__matricula__asign__52593CB8");
+                .HasConstraintName("FK__matricula__asign__2D27B809");
         });
 
         modelBuilder.Entity<Profesor>(entity =>
         {
-            entity.HasKey(e => e.Usuario).HasName("pk_profesor");
+            entity.HasKey(e => e.Usuario).HasName("PK__profesor__9AFF8FC73D4DE3AC");
 
             entity.ToTable("profesor");
 
@@ -140,6 +140,10 @@ public partial class RegistroAlumnoContext : DbContext
                 .HasMaxLength(255)
                 .IsUnicode(false)
                 .HasColumnName("nombre");
+            entity.Property(e => e.Pass)
+                .HasMaxLength(255)
+                .IsUnicode(false)
+                .HasColumnName("pass");
         });
 
         OnModelCreatingPartial(modelBuilder);

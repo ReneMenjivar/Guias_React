@@ -1,5 +1,6 @@
-﻿using reacktBackend.Context;
-using reacktBackend.Models;
+﻿
+using reactBackend.Context;
+using reactBackend.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,7 +17,7 @@ namespace reactBackend.Repository
         // -> el data set mediante su datatable se actualiza
         // -> el contexto mediante su metodo save guarda las actualizaciones , delete o insert
         // -> devuelve el tipo de correspondiente de error o peticion.
-        public RegistroAlumnoContext contexto = new RegistroAlumnoContext();
+        public RegistroAlumnosContext contexto = new RegistroAlumnosContext();
 
         public List<Alumno> SelectAll()
         {

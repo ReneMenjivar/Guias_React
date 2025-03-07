@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace reacktBackend.Models
+namespace reactBackend.Models
 {
-    internal class AlumnoProfesor
+    public class AlumnoProfesor
     {
         public int Id { get; set; }
         public string Dni { get; set; } = null!;

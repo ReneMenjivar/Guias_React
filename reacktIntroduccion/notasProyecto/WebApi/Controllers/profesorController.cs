@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using reacktBackend.Models;
+using reactBackend.Models;
 using reactBackend.Repository;
 
 namespace WebApi.Controllers

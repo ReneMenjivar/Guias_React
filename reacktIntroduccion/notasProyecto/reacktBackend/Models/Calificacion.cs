@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace reacktBackend.Models;
+namespace reactBackend.Models;
 
 public partial class Calificacion
 {
@@ -15,5 +15,5 @@ public partial class Calificacion
 
     public int MatriculaId { get; set; }
 
-    public virtual Matricula Matricula { get; set; } = null!;
+    public virtual Matricula? Matricula { get; set; } = null!;
 }
