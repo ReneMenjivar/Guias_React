@@ -1,7 +1,5 @@
 ﻿using reacktBackend.Context;
 using reacktBackend.Models;
-using reactBackend.Context;
-using reactBackend.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,16 +8,8 @@ using System.Threading.Tasks;
 
 namespace reactBackend.Repository
 {
-    public class AlumnoDao
+    public class AlumnoDao : AlumnoDaoBase
     {
-        // Para hacer cualquier opracio con de datos debemos llamar al contexto
-        // -> la peticion llama al contexto
-        // -> contexto verifica el dataset
-        // -> el data set mediante su datatable se actualiza
-        // -> el contexto mediante su metodo save guarda las actualizaciones , delete o insert
-        // -> devuelve el tipo de correspondiente de error o peticion.
-        public RegistroAlumnosContext contexto = new RegistroAlumnosContext();
-
         public List<Alumno> SelectAll()
         {
             // Creamos una variable var que es generica 
@@ -34,7 +24,7 @@ namespace reactBackend.Repository
             var alumno = contexto.Alumnos.Where(x => x.Id == id).FirstOrDefault();
             return alumno == null ? null : alumno;
         }
-
+        #region InsertarAlumno
         public bool insertarAlumno(Alumno alumno)
         {
             try
@@ -60,7 +50,8 @@ namespace reactBackend.Repository
                 return false;
             }
         }
-
+        #endregion
+        #region updateAlumo
         public bool update(int id, Alumno actualizar)
         {
             try
@@ -89,7 +80,8 @@ namespace reactBackend.Repository
                 return false;
             }
         }
-
+        #endregion
+        #region Borrar
         public bool borrarAlumno(int id)
         {
             var borrar = GetById(id);
@@ -112,7 +104,8 @@ namespace reactBackend.Repository
                 return false;
             }
         }
-
+        #endregion
+        #region leftjoin
         public List<AlumnoAsignatura> SelectAlumAsig()
         {
             var consulta = from a in contexto.Alumnos
@@ -129,26 +122,26 @@ namespace reactBackend.Repository
             return consulta.ToList();
 
         }
+        #endregion
+        //public List<AlumnoProfesor> AlumnoProfesors(string nombreProfesor)
+        //{
+        //    var listadoALumno = from a in contexto.Alumnos
+        //                        join m in contexto.Matriculas on a.Id equals m.AlumnoId
+        //                        join asig in contexto.Asignaturas on m.AsignaturaId equals asig.Id
+        //                        where asig.Profesor == nombreProfesor
+        //                        select new AlumnoProfesor
+        //                        {
+        //                            Id = a.Id,
+        //                            Dni = a.Dni,
+        //                            Nombre = a.Nombre,
+        //                            Direccion = a.Direccion,
+        //                            Edad = a.Edad,
+        //                            Email = a.Email,
+        //                            Asignatura = asig.Nombre
+        //                        };
 
-        public List<AlumnoProfesor> AlumnoProfesors(string nombreProfesor)
-        {
-            var listadoALumno = from a in contexto.Alumnos
-                                join m in contexto.Matriculas on a.Id equals m.AlumnoId
-                                join asig in contexto.Asignaturas on m.AsignaturaId equals asig.Id
-                                where asig.Profesor == nombreProfesor
-                                select new AlumnoProfesor
-                                {
-                                    Id = a.Id,
-                                    Dni = a.Dni,
-                                    Nombre = a.Nombre,
-                                    Direccion = a.Direccion,
-                                    Edad = a.Edad,
-                                    Email = a.Email,
-                                    Asignatura = asig.Nombre
-                                };
-
-            return listadoALumno.ToList();
-        }
+        //    return listadoALumno.ToList();
+        //}
 
         public Alumno DNIAlumno(Alumno alumno)
         {

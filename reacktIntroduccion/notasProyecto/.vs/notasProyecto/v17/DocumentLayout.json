@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\diego\\source\\repos\\Guias_React\\reacktIntroduccion\\notasProyecto\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{99753F5E-8E97-4D40-99E0-DCB29F7B871E}|reacktBackend\\reacktBackend.csproj|c:\\users\\diego\\source\\repos\\guias_react\\reacktintroduccion\\notasproyecto\\reacktbackend\\repository\\alumnodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99753F5E-8E97-4D40-99E0-DCB29F7B871E}|reacktBackend\\reacktBackend.csproj|solutionrelative:reacktbackend\\repository\\alumnodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9FE10C5A-4B7F-48AC-BA39-8BD94E5D703A}|Temp\\Temp.csproj|c:\\users\\diego\\source\\repos\\guias_react\\reacktintroduccion\\notasproyecto\\temp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9FE10C5A-4B7F-48AC-BA39-8BD94E5D703A}|Temp\\Temp.csproj|solutionrelative:temp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{99753F5E-8E97-4D40-99E0-DCB29F7B871E}|reacktBackend\\reacktBackend.csproj|c:\\users\\diego\\source\\repos\\guias_react\\reacktintroduccion\\notasproyecto\\reacktbackend\\repository\\alumnodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{99753F5E-8E97-4D40-99E0-DCB29F7B871E}|reacktBackend\\reacktBackend.csproj|solutionrelative:reacktbackend\\repository\\alumnodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{99753F5E-8E97-4D40-99E0-DCB29F7B871E}|reacktBackend\\reacktBackend.csproj|c:\\users\\diego\\source\\repos\\guias_react\\reacktintroduccion\\notasproyecto\\reacktbackend\\models\\alumno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99753F5E-8E97-4D40-99E0-DCB29F7B871E}|reacktBackend\\reacktBackend.csproj|solutionrelative:reacktbackend\\models\\alumno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{99753F5E-8E97-4D40-99E0-DCB29F7B871E}|reacktBackend\\reacktBackend.csproj|c:\\users\\diego\\source\\repos\\guias_react\\reacktintroduccion\\notasproyecto\\reacktbackend\\models\\asignatura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{99753F5E-8E97-4D40-99E0-DCB29F7B871E}|reacktBackend\\reacktBackend.csproj|solutionrelative:reacktbackend\\models\\asignatura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{99753F5E-8E97-4D40-99E0-DCB29F7B871E}|reacktBackend\\reacktBackend.csproj|c:\\users\\diego\\source\\repos\\guias_react\\reacktintroduccion\\notasproyecto\\reacktbackend\\models\\alumno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{99753F5E-8E97-4D40-99E0-DCB29F7B871E}|reacktBackend\\reacktBackend.csproj|solutionrelative:reacktbackend\\models\\alumno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{99753F5E-8E97-4D40-99E0-DCB29F7B871E}|reacktBackend\\reacktBackend.csproj|c:\\users\\diego\\source\\repos\\guias_react\\reacktintroduccion\\notasproyecto\\reacktbackend\\models\\alumnoasignatura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99753F5E-8E97-4D40-99E0-DCB29F7B871E}|reacktBackend\\reacktBackend.csproj|solutionrelative:reacktbackend\\models\\alumnoasignatura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99753F5E-8E97-4D40-99E0-DCB29F7B871E}|reacktBackend\\reacktBackend.csproj|c:\\users\\diego\\source\\repos\\guias_react\\reacktintroduccion\\notasproyecto\\reacktbackend\\context\\registroalumnocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99753F5E-8E97-4D40-99E0-DCB29F7B871E}|reacktBackend\\reacktBackend.csproj|solutionrelative:reacktbackend\\context\\registroalumnocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,7 +58,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
+              "Title": "RegistroAlumnoContext.cs",
+              "DocumentMoniker": "C:\\Users\\diego\\source\\repos\\Guias_React\\reacktIntroduccion\\notasProyecto\\reacktBackend\\Context\\RegistroAlumnoContext.cs",
+              "RelativeDocumentMoniker": "reacktBackend\\Context\\RegistroAlumnoContext.cs",
+              "ToolTip": "C:\\Users\\diego\\source\\repos\\Guias_React\\reacktIntroduccion\\notasProyecto\\reacktBackend\\Context\\RegistroAlumnoContext.cs",
+              "RelativeToolTip": "reacktBackend\\Context\\RegistroAlumnoContext.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAA0wAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T02:41:21.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AlumnoAsignatura.cs",
+              "DocumentMoniker": "C:\\Users\\diego\\source\\repos\\Guias_React\\reacktIntroduccion\\notasProyecto\\reacktBackend\\Models\\AlumnoAsignatura.cs",
+              "RelativeDocumentMoniker": "reacktBackend\\Models\\AlumnoAsignatura.cs",
+              "ToolTip": "C:\\Users\\diego\\source\\repos\\Guias_React\\reacktIntroduccion\\notasProyecto\\reacktBackend\\Models\\AlumnoAsignatura.cs",
+              "RelativeToolTip": "reacktBackend\\Models\\AlumnoAsignatura.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T02:30:09.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Asignatura.cs",
               "DocumentMoniker": "C:\\Users\\diego\\source\\repos\\Guias_React\\reacktIntroduccion\\notasProyecto\\reacktBackend\\Models\\Asignatura.cs",
               "RelativeDocumentMoniker": "reacktBackend\\Models\\Asignatura.cs",
@@ -63,7 +97,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Alumno.cs",
               "DocumentMoniker": "C:\\Users\\diego\\source\\repos\\Guias_React\\reacktIntroduccion\\notasProyecto\\reacktBackend\\Models\\Alumno.cs",
               "RelativeDocumentMoniker": "reacktBackend\\Models\\Alumno.cs",
@@ -76,26 +110,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\diego\\source\\repos\\Guias_React\\reacktIntroduccion\\notasProyecto\\Temp\\Program.cs",
               "RelativeDocumentMoniker": "Temp\\Program.cs",
-              "ToolTip": "C:\\Users\\diego\\source\\repos\\Guias_React\\reacktIntroduccion\\notasProyecto\\Temp\\Program.cs",
-              "RelativeToolTip": "Temp\\Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAKAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\diego\\source\\repos\\Guias_React\\reacktIntroduccion\\notasProyecto\\Temp\\Program.cs*",
+              "RelativeToolTip": "Temp\\Program.cs*",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAAAAAAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-15T01:07:43.378Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "AlumnoDAO.cs",
               "DocumentMoniker": "C:\\Users\\diego\\source\\repos\\Guias_React\\reacktIntroduccion\\notasProyecto\\reacktBackend\\Repository\\AlumnoDAO.cs",
               "RelativeDocumentMoniker": "reacktBackend\\Repository\\AlumnoDAO.cs",
               "ToolTip": "C:\\Users\\diego\\source\\repos\\Guias_React\\reacktIntroduccion\\notasProyecto\\reacktBackend\\Repository\\AlumnoDAO.cs",
               "RelativeToolTip": "reacktBackend\\Repository\\AlumnoDAO.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwB4AAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAkwH0AAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-15T01:00:07.315Z",
               "EditorCaption": ""
