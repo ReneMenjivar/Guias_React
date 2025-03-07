@@ -1,5 +1,31 @@
 [
   {
+    "ContainingType": "WebApi.Controllers.ProfesorController",
+    "Method": "loginProfesor",
+    "RelativePath": "api/autenticacion",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "profesor",
+        "Type": "reacktBackend.Models.Profesor",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "WebApi.Controllers.pruebaController",
     "Method": "Get",
     "RelativePath": "api/prueba/Prueba",
