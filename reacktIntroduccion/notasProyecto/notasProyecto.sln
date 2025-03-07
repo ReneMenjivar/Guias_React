@@ -5,7 +5,7 @@ VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "reacktBackend", "reacktBackend\reacktBackend.csproj", "{99753F5E-8E97-4D40-99E0-DCB29F7B871E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Temp", "Temp\Temp.csproj", "{9FE10C5A-4B7F-48AC-BA39-8BD94E5D703A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "WebApi\WebApi.csproj", "{728CE318-1FC5-4ED8-B7D5-0A5911688BAC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{99753F5E-8E97-4D40-99E0-DCB29F7B871E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{99753F5E-8E97-4D40-99E0-DCB29F7B871E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{99753F5E-8E97-4D40-99E0-DCB29F7B871E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9FE10C5A-4B7F-48AC-BA39-8BD94E5D703A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9FE10C5A-4B7F-48AC-BA39-8BD94E5D703A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9FE10C5A-4B7F-48AC-BA39-8BD94E5D703A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9FE10C5A-4B7F-48AC-BA39-8BD94E5D703A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{728CE318-1FC5-4ED8-B7D5-0A5911688BAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{728CE318-1FC5-4ED8-B7D5-0A5911688BAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{728CE318-1FC5-4ED8-B7D5-0A5911688BAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{728CE318-1FC5-4ED8-B7D5-0A5911688BAC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
