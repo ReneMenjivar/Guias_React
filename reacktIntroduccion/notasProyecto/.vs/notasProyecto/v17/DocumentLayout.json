@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\diego\\source\\repos\\Guias_React\\reacktIntroduccion\\notasProyecto\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{728CE318-1FC5-4ED8-B7D5-0A5911688BAC}|WebApi\\WebApi.csproj|c:\\users\\diego\\source\\repos\\guias_react\\reacktintroduccion\\notasproyecto\\webapi\\controllers\\calificacioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{728CE318-1FC5-4ED8-B7D5-0A5911688BAC}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\calificacioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99753F5E-8E97-4D40-99E0-DCB29F7B871E}|reacktBackend\\reacktBackend.csproj|c:\\users\\diego\\source\\repos\\guias_react\\reacktintroduccion\\notasproyecto\\reacktbackend\\repository\\calificaciondao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99753F5E-8E97-4D40-99E0-DCB29F7B871E}|reacktBackend\\reacktBackend.csproj|solutionrelative:reacktbackend\\repository\\calificaciondao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99753F5E-8E97-4D40-99E0-DCB29F7B871E}|reacktBackend\\reacktBackend.csproj|c:\\users\\diego\\source\\repos\\guias_react\\reacktintroduccion\\notasproyecto\\reacktbackend\\repository\\alumnodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99753F5E-8E97-4D40-99E0-DCB29F7B871E}|reacktBackend\\reacktBackend.csproj|solutionrelative:reacktbackend\\repository\\alumnodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{728CE318-1FC5-4ED8-B7D5-0A5911688BAC}|WebApi\\WebApi.csproj|c:\\users\\diego\\source\\repos\\guias_react\\reacktintroduccion\\notasproyecto\\webapi\\controllers\\alumnocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{728CE318-1FC5-4ED8-B7D5-0A5911688BAC}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\alumnocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -18,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,20 +54,59 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CalificacionDao.cs",
+              "DocumentMoniker": "C:\\Users\\diego\\source\\repos\\Guias_React\\reacktIntroduccion\\notasProyecto\\reacktBackend\\Repository\\CalificacionDao.cs",
+              "RelativeDocumentMoniker": "reacktBackend\\Repository\\CalificacionDao.cs",
+              "ToolTip": "C:\\Users\\diego\\source\\repos\\Guias_React\\reacktIntroduccion\\notasProyecto\\reacktBackend\\Repository\\CalificacionDao.cs",
+              "RelativeToolTip": "reacktBackend\\Repository\\CalificacionDao.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAvwFAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T21:38:27.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "CalificacionController.cs",
+              "DocumentMoniker": "C:\\Users\\diego\\source\\repos\\Guias_React\\reacktIntroduccion\\notasProyecto\\WebApi\\Controllers\\CalificacionController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\CalificacionController.cs",
+              "ToolTip": "C:\\Users\\diego\\source\\repos\\Guias_React\\reacktIntroduccion\\notasProyecto\\WebApi\\Controllers\\CalificacionController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\CalificacionController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwCEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T21:36:47.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AlumnoDAO.cs",
+              "DocumentMoniker": "C:\\Users\\diego\\source\\repos\\Guias_React\\reacktIntroduccion\\notasProyecto\\reacktBackend\\Repository\\AlumnoDAO.cs",
+              "RelativeDocumentMoniker": "reacktBackend\\Repository\\AlumnoDAO.cs",
+              "ToolTip": "C:\\Users\\diego\\source\\repos\\Guias_React\\reacktIntroduccion\\notasProyecto\\reacktBackend\\Repository\\AlumnoDAO.cs",
+              "RelativeToolTip": "reacktBackend\\Repository\\AlumnoDAO.cs",
+              "ViewState": "AgIAAIgAAAAAAAAAAAAvwJoAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T21:27:39.966Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "AlumnoController.cs",
               "DocumentMoniker": "C:\\Users\\diego\\source\\repos\\Guias_React\\reacktIntroduccion\\notasProyecto\\WebApi\\Controllers\\AlumnoController.cs",
               "RelativeDocumentMoniker": "WebApi\\Controllers\\AlumnoController.cs",
               "ToolTip": "C:\\Users\\diego\\source\\repos\\Guias_React\\reacktIntroduccion\\notasProyecto\\WebApi\\Controllers\\AlumnoController.cs",
               "RelativeToolTip": "WebApi\\Controllers\\AlumnoController.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAwwCEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-07T21:20:06.463Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "RegistroAlumnoContext.cs",
               "DocumentMoniker": "C:\\Users\\diego\\source\\repos\\Guias_React\\reacktIntroduccion\\notasProyecto\\reacktBackend\\Context\\RegistroAlumnoContext.cs",
               "RelativeDocumentMoniker": "reacktBackend\\Context\\RegistroAlumnoContext.cs",

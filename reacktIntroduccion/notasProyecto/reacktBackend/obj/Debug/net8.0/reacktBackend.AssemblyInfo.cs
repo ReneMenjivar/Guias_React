@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("reacktBackend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f4e4c7d048b64b9de1a55a69745e5139fbf201bf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+db3c1a030680777a3908906f739833d170d257b4")]
 [assembly: System.Reflection.AssemblyProductAttribute("reacktBackend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("reacktBackend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
